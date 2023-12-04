@@ -16,7 +16,7 @@ var contacts: HashSet<Contact> = hashSetOf()
 fun main(args: Array<String>) {
     /* ARG STUFF */
     if ("-q" !in args && "--quiet" !in args) {
-        println("CLI Contacts Simulator ${ver}v by nerddude (GNU GPL v3).")
+        println("CLI Contacts Simulator ${ver}v by nerddude.")
     }
 
     if ("-h" in args || "--help" in args) {
